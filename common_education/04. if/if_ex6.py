@@ -56,3 +56,6 @@ elif choice == 2 :
         print('총지불액: %s 원' % format(int((ea * dc_price)-0),','))
 else :
     print('잘못 입력하였습니다. 종료합니다.')
+
+
+
