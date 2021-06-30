@@ -44,3 +44,10 @@ for x in range(9) :
         sum1 = str("☆" * sum)
         print(sum1, end="")
         print()
+
+
+
+
+
+
+
