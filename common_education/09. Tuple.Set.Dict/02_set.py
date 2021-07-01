@@ -57,11 +57,24 @@ print(s)
 
 # 요소 제거
 s.remove(3)
-print(s)
+print(s) # {1, 2, 4, 5, 6}
+s.discard(5)
+print(s)    # {1, 2, 4, 6}
+
+# 없는 요소 삭제 시
+# s.remove(10) # 에러 발생
+s.discard(10) # 에러 없음
 
 # 전체 요소 삭제
 s.clear()
 print(s)    # set() : 빈 집합입니다. 요소는 삭제되지만 집합 변수는 남음
 
 # 집합 삭제 ㅡ del 명령문 사용
-del s       # s 변수 완전 삭제 
+del s       # s 변수 완전 삭제
+# print(s)  # NameError
+
+# 집합에 in이나 not in을 사용할 수 있음
+s = {1,2,3,4}
+print(3 in s)   # True
+
+
